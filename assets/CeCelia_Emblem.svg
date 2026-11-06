@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 525" width="100%" height="100%">
+  <defs>
+    <!-- Left Orange Wing Gradient -->
+    <linearGradient id="orangeLeft" x1="0%" y1="50%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#F6C49A" stop-opacity="0.85"/>
+      <stop offset="15%" stop-color="#F1AF79"/>
+      <stop offset="88%" stop-color="#D46018"/>
+      <stop offset="100%" stop-color="#D46018"/>
+    </linearGradient>
+    <!-- Right Orange Wing Gradient -->
+    <linearGradient id="orangeRight" x1="0%" y1="50%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#D46018"/>
+      <stop offset="12%" stop-color="#D46018"/>
+      <stop offset="85%" stop-color="#F1AF79"/>
+      <stop offset="100%" stop-color="#F6C49A" stop-opacity="0.85"/>
+    </linearGradient>
+    <!-- Top Slate Navy Wing Gradient -->
+    <linearGradient id="slateTop" x1="0%" y1="0%" x2="85%" y2="100%">
+      <stop offset="0%" stop-color="#8294AD" stop-opacity="0.9"/>
+      <stop offset="45%" stop-color="#4A586B"/>
+      <stop offset="85%" stop-color="#1F2733"/>
+      <stop offset="100%" stop-color="#1B222C"/>
+    </linearGradient>
+    <!-- Bottom Slate Navy Wing Gradient -->
+    <linearGradient id="slateBottom" x1="15%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1B222C"/>
+      <stop offset="15%" stop-color="#1F2733"/>
+      <stop offset="55%" stop-color="#4A586B"/>
+      <stop offset="100%" stop-color="#8294AD" stop-opacity="0.9"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Left Orange Wing -->
+  <polygon points="2,262.5 395.5,161.5 512,262.5" fill="url(#orangeLeft)"/>
+  <!-- Right Orange Wing -->
+  <polygon points="512,262.5 624.5,363.5 1022,262.5" fill="url(#orangeRight)"/>
+  <!-- Top Slate Wing -->
+  <polygon points="264,1 736,239.5 528,237.5" fill="url(#slateTop)"/>
+  <!-- Bottom Slate Wing -->
+  <polygon points="286,284 495,287 759,524" fill="url(#slateBottom)"/>
+</svg>
